@@ -1,6 +1,6 @@
 {
   "request_id": "220601190013_b24a6ae6-3183-52fd-8160-0196c186c1a8",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "5d64f8c5-51c4-4edb-975c-58f247c0f107",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "f5c89de0-f938-4a82-b966-1eec52a1829f",
     "storage_file": "gs://y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0/userUploads/v2/6/singer-google-sheets/bfe11725-462a-436c-a9b3-90c2397c2c43",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-01T19:00:52.028193+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220601190013_b24a6ae6-3183-52fd-8160-0196c186c1a8",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0&t=220601190013_b24a6ae6-3183-52fd-8160-0196c186c1a8&page=table"
   },
-  "_signature": "01innL2bnbzYVUm2fI/co1C2nLw99Ken1gkn1LCwhNEEB1XaFRUDG1g/2NbJ/QSxErqwtRlgR7wCOoFnSrQPDQ=="
+  "finished_at": "2022-06-01T19:00:52.028294+00:00",
+  "_signature": "YIs1gNy8QEb5rnuVeFvaYJOJ99k4ZjMaDnQxF11HWPBMgkhQlPSIGtXXuiON0eluevRk5VUmg2fHlumkaygxCA=="
 }
