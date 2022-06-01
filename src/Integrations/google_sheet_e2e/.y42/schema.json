@@ -1,0 +1,65 @@
+{
+  "streams": [
+    {
+      "group": "data_types",
+      "stream": "data_types-MOCK_DATA (1)",
+      "table_name": "data_types-MOCK_DATA (1)",
+      "tap_stream_id": "1Ho4ILhLaa8KgTtI28-FVi1ERtkCohssUvZdo4Hq-9CE/MOCK_DATA (1)",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "demo_data",
+      "stream": "demo_data-Sheet1",
+      "table_name": "demo_data-Sheet1",
+      "tap_stream_id": "1HgQaA2il8AuGJGnwDWedlIr6gSLlK7cRvTPhqCAztTc/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "carData",
+      "stream": "carData-carData",
+      "table_name": "carData-carData",
+      "tap_stream_id": "1UoEclHqAJ6-y3fgfgWRJQBoYfm60XdKTxUFAumguCuE/carData",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "for_testing",
+      "stream": "for_testing-for_testing",
+      "table_name": "for_testing-for_testing",
+      "tap_stream_id": "1UX0Fvsa-r54xfqlW7V2N08NqYNZS39dVnzo_GE7Egco/for_testing",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ],
+  "_signature": "A9EaQ7h/FdwJhWUHspKgCXXzXgstrXacuiW27gm5AQ8bH80bouil3BYBYY+PQWpODk8B4R7YKcyk18N2TzIwBw=="
+}
