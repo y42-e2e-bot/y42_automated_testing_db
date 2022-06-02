@@ -1,0 +1,51 @@
+{
+  "run_id": "220602123007_6ed25702-2f06-56f3-9f57-0365ab98b24d",
+  "status": "ready",
+  "request": {
+    "target": {
+      "storage": {
+        "id": "6:490059ac-1e6d-4a24-832b-1eab0afc5ff1",
+        "type": "githubapp",
+        "path": "/src/Orchestrations/orchestration_test",
+        "branch": "main"
+      },
+      "info": {}
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration"
+    }
+  },
+  "details": {
+    "linkDataArray": [],
+    "nodeDataArray": [
+      {
+        "key": "ccda628f-c225-4d72-a6ce-af997c10f9cb",
+        "path": "src/Integrations/google_sheet_e2e/carData-carData",
+        "location": "0 0",
+        "onFailure": "stop",
+        "nodeConfig": {
+          "incremental": true
+        }
+      }
+    ],
+    "visualDataArray": [],
+    "nodeStatusArray": {
+      "ccda628f-c225-4d72-a6ce-af997c10f9cb": "ready"
+    },
+    "jobs": {
+      "ccda628f-c225-4d72-a6ce-af997c10f9cb": {
+        "run": "src/Integrations/google_sheet_e2e/carData-carData/.y42/run_220602123008_b4c7ce70-06a9-5de6-af00-c7a3035dfd10.json"
+      }
+    }
+  },
+  "created_at": "2022-06-02T12:30:07.153266+00:00",
+  "finished_at": "2022-06-02T12:31:13.854456+00:00",
+  "latest_pulse_at": null,
+  "updated_at": "2022-06-02T12:31:13.854511+00:00",
+  "canceled_at": null,
+  "failed_at": null,
+  "_lock_token": "138b038d-f210-42e7-b5f9-6fc4d1227561",
+  "_signature": "5EfvOVBnNMrHitX7icq+s0+9FOruJbo5MctKEAFA2P7wFRXCrBqVYcNsIRNNfj5TRbuvcmM1FOJOK/3sBLlYBQ=="
+}
