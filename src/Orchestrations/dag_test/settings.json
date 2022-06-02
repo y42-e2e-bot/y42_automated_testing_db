@@ -2,6 +2,16 @@
   "cronExpression": "",
   "forceSchedule": false,
   "linkDataArray": [],
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "a7d87152-4617-4fc9-90ef-c257ad614aa6",
+      "path": "src/Integrations/google_sheet_e2e/carData-carData",
+      "location": "124.28571428571433 -5.714285714285722",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
