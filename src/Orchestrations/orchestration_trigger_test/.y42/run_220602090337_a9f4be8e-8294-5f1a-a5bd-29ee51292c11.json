@@ -1,0 +1,48 @@
+{
+  "run_id": "220602090337_a9f4be8e-8294-5f1a-a5bd-29ee51292c11",
+  "status": "pending",
+  "request": {
+    "target": {
+      "storage": {
+        "id": "6:490059ac-1e6d-4a24-832b-1eab0afc5ff1",
+        "type": "githubapp",
+        "path": "/src/Orchestrations/orchestration_trigger_test",
+        "branch": "main"
+      },
+      "info": {}
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": 10
+    }
+  },
+  "details": {
+    "linkDataArray": [],
+    "nodeDataArray": [
+      {
+        "key": "f082d414-15f0-4c79-86c4-687839918015",
+        "path": "src/Integrations/google_sheet_e2e/carData-carData",
+        "location": "0 0",
+        "onFailure": "stop",
+        "nodeConfig": {
+          "incremental": true
+        }
+      }
+    ],
+    "visualDataArray": [],
+    "nodeStatusArray": {
+      "f082d414-15f0-4c79-86c4-687839918015": "pending"
+    },
+    "jobs": {}
+  },
+  "created_at": "2022-06-02T09:03:37.398297+00:00",
+  "finished_at": null,
+  "latest_pulse_at": null,
+  "updated_at": "2022-06-02T09:03:37.501750+00:00",
+  "canceled_at": null,
+  "failed_at": null,
+  "_lock_token": "ddfa6699-f37e-4394-9d53-25ea5097e7f9",
+  "_signature": "e0mritQE7ByV+sMBgmcsAYRF6k520R1hxkxTQE4S7PUpBDk6OcUrxspGG5+NnSJaBpeCzl7SR4GN+3ryX4eKAQ=="
+}
