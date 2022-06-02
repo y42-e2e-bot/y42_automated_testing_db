@@ -1,6 +1,6 @@
 {
   "request_id": "220602123008_b4c7ce70-06a9-5de6-af00-c7a3035dfd10",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "5d64f8c5-51c4-4edb-975c-58f247c0f107",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "d1075db4-3e08-40c9-970d-dacaae887f99",
     "storage_file": "gs://y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0/userUploads/v2/6/singer-google-sheets/58c2ea2a-eccc-4604-b593-21f49f1ce247",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-02T12:30:58.051650+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220602123008_b4c7ce70-06a9-5de6-af00-c7a3035dfd10",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0&t=220602123008_b4c7ce70-06a9-5de6-af00-c7a3035dfd10&page=table"
   },
-  "_signature": "ZlGSz+QiPftsZ+tUMOnWc+0eq2QnqIfZesZytnXQaeFf2Y7jXSPnzy7gYSbpE3t+mTLMOHypt+7Wod8MtyPMDg=="
+  "finished_at": "2022-06-02T12:30:58.051757+00:00",
+  "_signature": "7eSaiAn9JQbqT5a4Xp+KwhaPItT+kp6bnROlVqx8ajcrZUoZR8iWBU0MmpVpKoozZT5k2sA4W4cpLC6amMaSAA=="
 }
