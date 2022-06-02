@@ -1,6 +1,6 @@
 {
-  "cronExpression": "0/30 * 1/1 * *",
-  "forceSchedule": true,
+  "cronExpression": "",
+  "forceSchedule": false,
   "linkDataArray": [],
   "nodeDataArray": [
     {
