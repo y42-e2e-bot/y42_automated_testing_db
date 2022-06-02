@@ -1,5 +1,99 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "78e9c070-4514-424b-b143-5e8ffaab2787",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "78e9c070-4514-424b-b143-5e8ffaab2787",
+        "title": "carData-carData",
+        "transformationType": "INPUT",
+        "datasourceName": "google_sheet_e2e",
+        "transformObject": {
+          "source": "src/Integrations/google_sheet_e2e",
+          "table": "src/Integrations/google_sheet_e2e/carData-carData",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-351 -23"
+    },
+    {
+      "key": "f9363736-675e-40fc-8cf4-02abe937cd1b",
+      "type": "GROUP_BY",
+      "category": "GROUP_BY",
+      "transformationStep": {
+        "id": "f9363736-675e-40fc-8cf4-02abe937cd1b",
+        "title": "",
+        "transformationType": "GROUP_BY",
+        "transformObject": {
+          "columns": [
+            {
+              "name": "make",
+              "alias": "total_on_production",
+              "func": "COUNT"
+            }
+          ],
+          "groupBy": [
+            "make"
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-83 -40"
+    },
+    {
+      "key": "6da2abe2-0eb9-44da-b421-8c493478d41e",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "6da2abe2-0eb9-44da-b421-8c493478d41e",
+        "title": "ui_model_test_e2e",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "ui_model_test_e2e",
+          "fields": [
+            {
+              "target": "make",
+              "source": "make",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "total_on_production",
+              "source": "total_on_production",
+              "type": "NUMERIC",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "175 -32"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "78e9c070-4514-424b-b143-5e8ffaab2787",
+      "to": "f9363736-675e-40fc-8cf4-02abe937cd1b"
+    },
+    {
+      "from": "f9363736-675e-40fc-8cf4-02abe937cd1b",
+      "to": "6da2abe2-0eb9-44da-b421-8c493478d41e"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
