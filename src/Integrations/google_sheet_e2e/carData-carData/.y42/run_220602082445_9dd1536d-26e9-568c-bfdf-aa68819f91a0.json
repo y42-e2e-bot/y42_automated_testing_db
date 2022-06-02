@@ -1,6 +1,6 @@
 {
   "request_id": "220602082445_9dd1536d-26e9-568c-bfdf-aa68819f91a0",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "5d64f8c5-51c4-4edb-975c-58f247c0f107",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "6858155c-80fc-4465-b299-02d9f530798b",
     "storage_file": "gs://y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0/userUploads/v2/6/singer-google-sheets/20107487-cb21-4efc-8831-82b5b03b9317",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-02T08:25:21.044850+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220602082445_9dd1536d-26e9-568c-bfdf-aa68819f91a0",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0&t=220602082445_9dd1536d-26e9-568c-bfdf-aa68819f91a0&page=table"
   },
-  "_signature": "Cp8HwhmymlSNMVgVb3RHJNhXbw8rct1w51yfKavd8T4wCNIJpDIL3NXZiCqJZdjN4+bULytTQ0aGQ32c8KULDw=="
+  "finished_at": "2022-06-02T08:25:21.044941+00:00",
+  "_signature": "SSugzNg0kgWzAZBwPG63nnPMP9d4+5Gv63pkJ9IB9H2rudC56XL4m9sKgbBjADBmg4DoBA8oNEn5k4vodSAXAQ=="
 }
