@@ -1,6 +1,6 @@
 {
   "request_id": "220602091009_20056844-9c41-5b82-9711-fcb99d0616de",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "5d64f8c5-51c4-4edb-975c-58f247c0f107",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "e96cd90c-db58-4a47-9dcd-1ab7bca50d84",
     "storage_file": "gs://y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0/userUploads/v2/6/singer-google-sheets/d83fe2bc-3dfb-4a3d-aba8-4fae631d7600",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-02T09:10:48.124727+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220602091009_20056844-9c41-5b82-9711-fcb99d0616de",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0&t=220602091009_20056844-9c41-5b82-9711-fcb99d0616de&page=table"
   },
-  "_signature": "vZXWgPxJDJtMBh+7l6KkS/kx0qC1oD04lTU4sdq1ydRaqAEcU2VAYW3eWEKQyGSYDE741LZ3MlCGn3rftpVVDA=="
+  "finished_at": "2022-06-02T09:10:48.124815+00:00",
+  "_signature": "+36PEKxkrm8+Ybgn47trtD1X4/0wE+LOgnpw1hvoamirjtVEy184VBVdjuQ77NtfaYeDl867N5KZu7jpRrIzAQ=="
 }
