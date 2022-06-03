@@ -1,6 +1,6 @@
 {
   "request_id": "220603053009_c0fe9741-cd05-5ff5-be59-685219400eb3",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "5d64f8c5-51c4-4edb-975c-58f247c0f107",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "89413e7e-34f0-4ce3-9d15-39016909cd9a",
     "storage_file": "gs://y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0/userUploads/v2/6/singer-google-sheets/7419f262-451e-4218-b014-12b33cae678e",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-03T05:30:47.770297+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220603053009_c0fe9741-cd05-5ff5-be59-685219400eb3",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0&t=220603053009_c0fe9741-cd05-5ff5-be59-685219400eb3&page=table"
   },
-  "_signature": "VwnjuzTqMajYNgsaKSkUwNCkCnT4w2Zc3TR+tDJcv5mIUZpKogKe24mu8+xCQzGmK/av884qP7IMwJaoCeArBw=="
+  "finished_at": "2022-06-03T05:30:47.770400+00:00",
+  "_signature": "E1MsnHcuaEF8brZZk1nRQdkX9NwaXCqq9OHV804BNWcXXZ2PEG3ZHozdgFYvMg5VgUZ0kYowINv9zJMjuGT5Dw=="
 }
