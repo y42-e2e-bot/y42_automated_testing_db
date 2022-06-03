@@ -34,14 +34,18 @@
     "nodeStatusArray": {
       "f40f6ab0-1ce9-445b-afc5-930b9b7ee91f": "pending"
     },
-    "jobs": {}
+    "jobs": {
+      "f40f6ab0-1ce9-445b-afc5-930b9b7ee91f": {
+        "run": "src/Integrations/google_sheet_e2e/carData-carData/.y42/run_220603040009_b6c57e68-0b93-5176-add7-b745005e6d4d.json"
+      }
+    }
   },
   "created_at": "2022-06-03T04:00:06.051314+00:00",
   "finished_at": null,
   "latest_pulse_at": null,
-  "updated_at": "2022-06-03T04:00:06.154022+00:00",
+  "updated_at": "2022-06-03T04:00:09.571297+00:00",
   "canceled_at": null,
   "failed_at": null,
-  "_lock_token": "75588153-dc29-44be-8717-7225e9323ad2",
-  "_signature": "p1i6/GH8SP3qPKFI5YaDyvniv91+i0e6H3tr3q01/0bUzUHQJP3iAr2PKGk1d2fGt2b6MtKDYAHP67CsZRk9BA=="
+  "_lock_token": "5238be41-54f5-49ac-a3ee-e6db28f00a31",
+  "_signature": "/RoIk5PbaUF66QudIDpYCNUHSAoNitmiwTaEmobc2AjIeMlrrSenih/Zg1uNspuqg7G7m4EbYJEUoYCTHvXMBw=="
 }
