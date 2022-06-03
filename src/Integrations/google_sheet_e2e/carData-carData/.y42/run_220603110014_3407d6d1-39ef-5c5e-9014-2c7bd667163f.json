@@ -1,6 +1,6 @@
 {
   "request_id": "220603110014_3407d6d1-39ef-5c5e-9014-2c7bd667163f",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "5d64f8c5-51c4-4edb-975c-58f247c0f107",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "de357c4c-b101-418c-bba0-70e28b97e50e",
     "storage_file": "gs://y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0/userUploads/v2/6/singer-google-sheets/60951096-e035-4198-adb7-bc55a541423b",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-03T11:00:51.506545+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220603110014_3407d6d1-39ef-5c5e-9014-2c7bd667163f",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0&t=220603110014_3407d6d1-39ef-5c5e-9014-2c7bd667163f&page=table"
   },
-  "_signature": "QDMYEk+Zaa12NlX0suYaZYF/FAuXzhF2t4+oUvWNeJOT7EJ+9fQQAzHuL2BurxNq3oo3OOv+qNSo5vg4FJg6DQ=="
+  "finished_at": "2022-06-03T11:00:51.506656+00:00",
+  "_signature": "rR1++vmlDd8u+rdz/UNl1bpBaQqz3PtG1gBzRnAXJ92NoVfFDVZVcVlNGXWrbIfoNpePz3VEDKV5opxIoiQEDw=="
 }
