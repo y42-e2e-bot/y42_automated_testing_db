@@ -1,6 +1,6 @@
 {
   "request_id": "220603233008_14cf8732-d77f-52bd-b0da-ca2ff9fd0a10",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "5d64f8c5-51c4-4edb-975c-58f247c0f107",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "2d32d8f0-3ae4-49a8-bc58-933a3daa45bf",
     "storage_file": "gs://y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0/userUploads/v2/6/singer-google-sheets/bd6087e2-4b32-4c68-a531-a041e040b3d4",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-03T23:30:55.053305+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220603233008_14cf8732-d77f-52bd-b0da-ca2ff9fd0a10",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0&t=220603233008_14cf8732-d77f-52bd-b0da-ca2ff9fd0a10&page=table"
   },
-  "_signature": "Osi/Z10ynqkX0mUoXFKx8d5DRXArMPc+lvCZ/EK+XeQxcoALRCtwyF2u4xs0GNdJcSsYfoGCBJCiSUAuQ+79Cg=="
+  "finished_at": "2022-06-03T23:30:55.053401+00:00",
+  "_signature": "Am0/PAzC2PiOcpySStdnmJ9xJJiESqJaqhlSihJ8W26bJDrWowPLVEFe9ORezIE3wzxDrpuengHEvEX3kubdAA=="
 }
