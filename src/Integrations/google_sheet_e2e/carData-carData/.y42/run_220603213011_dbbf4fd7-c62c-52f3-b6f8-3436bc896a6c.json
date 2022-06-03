@@ -1,6 +1,6 @@
 {
   "request_id": "220603213011_dbbf4fd7-c62c-52f3-b6f8-3436bc896a6c",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "5d64f8c5-51c4-4edb-975c-58f247c0f107",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "0a465c44-2b28-4557-b75c-ea4c1719f995",
     "storage_file": "gs://y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0/userUploads/v2/6/singer-google-sheets/99fdaabd-9fb1-4060-b8f0-e07c7dcad6ea",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-03T21:30:50.823348+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220603213011_dbbf4fd7-c62c-52f3-b6f8-3436bc896a6c",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0&t=220603213011_dbbf4fd7-c62c-52f3-b6f8-3436bc896a6c&page=table"
   },
-  "_signature": "1geeLaOwqaz3XxLpwvf7pC+JqXzG3bvps1FnUK2bfQnyxrao6Hy+aKfngII4ek0Y2iwt/tThFpBB51asAbi1Cg=="
+  "finished_at": "2022-06-03T21:30:50.823444+00:00",
+  "_signature": "Z7oCae35wDhE4i/YRqkNSg+yf+Semvl7pOz4SMYaKwv7PNTPOhXeSGFNYunwRlOCyauyuea1Qw0lJzk1gHBfDw=="
 }
