@@ -1,6 +1,6 @@
 {
   "request_id": "220603150008_34b56c80-150f-5f49-ad45-5d62e23f8174",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "5d64f8c5-51c4-4edb-975c-58f247c0f107",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "1200a54a-b7e7-4ae7-82c2-e7b6a58a5f7b",
     "storage_file": "gs://y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0/userUploads/v2/6/singer-google-sheets/3035d5fb-57ae-49b3-99ee-472f84fd01ee",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-03T15:01:07.247420+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220603150008_34b56c80-150f-5f49-ad45-5d62e23f8174",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0&t=220603150008_34b56c80-150f-5f49-ad45-5d62e23f8174&page=table"
   },
-  "_signature": "kVXcK2fFo4o/txZPH8bN+uk5GgoLo6qA7nMLSj4/QqSmn3VatQIGCjMDOHh+T2C3F3x62OC8AlFqLice7zHcCg=="
+  "finished_at": "2022-06-03T15:01:07.247530+00:00",
+  "_signature": "vAl0jaCjgT3GOP2K6rZlherrPGrOycND32AidESnz/KS28lh4Q8eVBXWK2pRxo0Z4FfKdR8lNRWbYoWIfRfMBg=="
 }
