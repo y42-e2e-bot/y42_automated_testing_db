@@ -1,6 +1,6 @@
 {
   "request_id": "220603133009_dcd04c68-67a4-5ddd-9abd-4ad3c3d697e7",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "5d64f8c5-51c4-4edb-975c-58f247c0f107",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "a17d587b-5ac2-40f7-904f-568d1e181c81",
     "storage_file": "gs://y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0/userUploads/v2/6/singer-google-sheets/63d4f578-db4b-43fb-b51e-2a6a132f231a",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-03T13:30:56.864086+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220603133009_dcd04c68-67a4-5ddd-9abd-4ad3c3d697e7",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0&t=220603133009_dcd04c68-67a4-5ddd-9abd-4ad3c3d697e7&page=table"
   },
-  "_signature": "8W+SL+DiqVlwPMDqzzDuhB/Bv6AFTZHxLd++6QjY8YPKBIjDUXvpa2Lnn9PLnT+b9BtYrbaOP1L1C8++Xa/iBg=="
+  "finished_at": "2022-06-03T13:30:56.864194+00:00",
+  "_signature": "W1SZQk6MgQHYcX7mOdhKBJn5EUr6oV1ID9h9FBSTNrvZEAsPh63lpNJDks12J78OFuB96buQhfg9tt1nIB41AQ=="
 }
