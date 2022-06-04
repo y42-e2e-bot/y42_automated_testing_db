@@ -1,6 +1,6 @@
 {
   "request_id": "220604030013_c2c53217-a8e5-565d-bece-2d7515eb397a",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "5d64f8c5-51c4-4edb-975c-58f247c0f107",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "fb916032-91c8-451e-8cbe-314fc34a571f",
     "storage_file": "gs://y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0/userUploads/v2/6/singer-google-sheets/6c7d369c-6e36-46c8-b517-a54a74d24d1e",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-04T03:00:54.840962+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220604030013_c2c53217-a8e5-565d-bece-2d7515eb397a",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0&t=220604030013_c2c53217-a8e5-565d-bece-2d7515eb397a&page=table"
   },
-  "_signature": "AJHkEGanIrQFP4isO/ilcdJAprUc2pC17h0FzJrXNEvFVelDmuiFCOiFSn+zvHGVXw+JXJe8NsD+l/VCvMskBw=="
+  "finished_at": "2022-06-04T03:00:54.841061+00:00",
+  "_signature": "hQeeWRnq6QxPjJ93cRCGLEHoKJOOteJoWPQtv37K824+CFwfP2RZW+bix6yBAjL19WhHZzjfdzcu7+yfMHcaDQ=="
 }
