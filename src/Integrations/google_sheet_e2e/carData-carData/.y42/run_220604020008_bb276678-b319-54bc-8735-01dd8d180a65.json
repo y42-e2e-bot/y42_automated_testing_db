@@ -1,6 +1,6 @@
 {
   "request_id": "220604020008_bb276678-b319-54bc-8735-01dd8d180a65",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "5d64f8c5-51c4-4edb-975c-58f247c0f107",
@@ -44,5 +44,8 @@
     "previous_table_id": "220603233008_14cf8732-d77f-52bd-b0da-ca2ff9fd0a10"
   },
   "created_at": "2022-06-04T02:00:08.689438+00:00",
-  "_signature": "fDGMc44JC2v8N4qysp60gveHB2UvnAG17SqcUZosbTUzLaNnrT2XE2rZtMoZBHoHyh8kvDezqzfX4ROZUXvWCw=="
+  "failed_at": "2022-06-04T02:00:39.806157+00:00",
+  "error_code": 500,
+  "error_message": "internal error while determining file header",
+  "_signature": "JZrkWJ+hTVuFw+xx8JLrFIoz0kMKesOD2cxwg1tSshJIxlIcj8YvPyg/CufYp/hDeKY99z/zB+HXKUnAQ4EqDQ=="
 }
