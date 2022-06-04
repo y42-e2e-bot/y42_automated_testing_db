@@ -1,6 +1,6 @@
 {
   "request_id": "220604130009_6c147cf9-ae1a-5c81-8bcb-472c011c9a80",
-  "status": "ready",
+  "status": "pending",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "5d64f8c5-51c4-4edb-975c-58f247c0f107",
@@ -85,7 +85,11 @@
       }
     ],
     "table_name": "220604130009_6c147cf9-ae1a-5c81-8bcb-472c011c9a80",
-    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0&t=220604130009_6c147cf9-ae1a-5c81-8bcb-472c011c9a80&page=table"
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0&t=220604130009_6c147cf9-ae1a-5c81-8bcb-472c011c9a80&page=table",
+    "export_finished_at": "2022-06-04T13:00:28.573349+00:00",
+    "write_disposition": "TRUNCATE",
+    "storage_file": "gs://y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0/userUploads/v2/6/singer-google-sheets/bad036ba-b016-4af1-8e40-21f799ecf9b7",
+    "partial": false
   },
-  "_signature": "nQ1VD+iFIYUaprcNoFXDYkIf7+C9vfubfhConY9fidW//dE+g0zkf20mtWz0LvXuoaAspeQ0W02CYbI411GHDg=="
+  "_signature": "8acWVdKjUipBJ5EL1cVm/H5zFcEqof+H+WQy4L88ldhs2m5b2+AnonKaJJwu152Agj0xuSqfkbIgoUchBOFTBg=="
 }
