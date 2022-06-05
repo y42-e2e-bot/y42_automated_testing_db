@@ -1,6 +1,6 @@
 {
   "request_id": "220605053011_e2ffc38b-4659-5095-a46e-a9cfe93dc30e",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "5d64f8c5-51c4-4edb-975c-58f247c0f107",
@@ -44,5 +44,48 @@
     "previous_table_id": "220604230009_8887fd15-c57c-56eb-b10d-6145d197cafd"
   },
   "created_at": "2022-06-05T05:30:11.036601+00:00",
-  "_signature": "doRKY3cNjoW49Dg33wwUiWU+yq+7HgJXyxGNYLyXQJwbWlhAVg/HG5OX1SotRm2PKAT56TYOtHzmyGAgM6ZlCQ=="
+  "finished_at": "2022-06-05T05:30:51.178679+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-05T05:30:51.178581+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "external_id": "25f3b728-bcdf-4470-8128-137a48142472",
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220605053011_e2ffc38b-4659-5095-a46e-a9cfe93dc30e",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_d1edb6d02d3943e78050d076c90db3c0&t=220605053011_e2ffc38b-4659-5095-a46e-a9cfe93dc30e&page=table"
+  },
+  "_signature": "ORfJ7NDZ6gw+rMlMiFRVJ+kEPNkyfO+z8RQF014D7FTyh7d2n+64iuB+5DwjYlmwpWtcnZpS/XzWe7FalxDCBg=="
 }
