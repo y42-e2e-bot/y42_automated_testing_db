@@ -44,5 +44,13 @@
     "previous_table_id": "220629140015_6af24384-9d7c-5b64-bfe5-47de26bb8b7b"
   },
   "created_at": "2022-06-29T14:30:11.502829+00:00",
-  "_signature": "71lr8Jbcca0Zi4Zmq7wTEEf6YmUwa4E7+htFEMCZO+5y2uarZiSVk7XBUHVGbiUTwqymLRBhaihgIAsPo0H9BQ=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-06-29T14:30:28.914770+00:00",
+    "write_disposition": "TRUNCATE",
+    "external_id": "eec5dfa5-7e29-43f8-bc86-110d4bb72335",
+    "storage_file": "gs://y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42/userUploads/v2/6/singer-google-sheets/de1b639b-7c5e-4c7f-9268-b64817e2a6b8",
+    "partial": false
+  },
+  "_signature": "xdEhmEffZBGM4/mXU3hMrtON1oowfww5TkOafcjLL96ljr2MC8vq8AhB/sSUluZ2Xgo2oLbTtLD5HSa8Jx6oDQ=="
 }
