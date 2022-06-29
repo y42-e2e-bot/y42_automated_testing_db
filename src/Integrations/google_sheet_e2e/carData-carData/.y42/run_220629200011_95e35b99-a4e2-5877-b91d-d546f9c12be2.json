@@ -1,6 +1,6 @@
 {
   "request_id": "220629200011_95e35b99-a4e2-5877-b91d-d546f9c12be2",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "6e996f68-f79a-4637-b8ec-c704caaa579e",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "e938621c-caa5-4ea9-b57b-1bb6620613a9",
     "storage_file": "gs://y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42/userUploads/v2/6/singer-google-sheets/9e476028-ddd6-424e-87cc-a69e878f32dc",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-29T20:01:09.433546+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220629200011_95e35b99-a4e2-5877-b91d-d546f9c12be2",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42&t=220629200011_95e35b99-a4e2-5877-b91d-d546f9c12be2&page=table"
   },
-  "_signature": "+WvKpY+0ztASVbQrtue/4wEoRDFRhiHCrTrAF+FCWPJMritPGXejZHl4DkSXVap4EkHqp9WdrVOQd3pV4UysAQ=="
+  "finished_at": "2022-06-29T20:01:09.433671+00:00",
+  "_signature": "qVekFPKuC8UCZgyj0QV5KsCPW7DwyXCIE80N1FGi181FNJ3AxzM8RzLBs6j3kecI7iXvZDCIp+G97WEc+ZDJBQ=="
 }
