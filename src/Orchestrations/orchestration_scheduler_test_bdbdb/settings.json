@@ -1,7 +1,17 @@
 {
-  "cronExpression": "",
+  "cronExpression": "0/23 * 1/1 * *",
   "forceSchedule": false,
   "linkDataArray": [],
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "1cf1fe79-3459-428e-8968-2c1c922b8a34",
+      "path": "src/Integrations/google_sheet_e2e/carData-carData",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
