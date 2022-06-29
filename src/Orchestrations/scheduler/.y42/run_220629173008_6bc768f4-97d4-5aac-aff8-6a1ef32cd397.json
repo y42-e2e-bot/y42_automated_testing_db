@@ -1,6 +1,6 @@
 {
   "run_id": "220629173008_6bc768f4-97d4-5aac-aff8-6a1ef32cd397",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target": {
       "storage": {
@@ -39,9 +39,11 @@
   "created_at": "2022-06-29T17:30:08.481862+00:00",
   "finished_at": null,
   "latest_pulse_at": null,
-  "updated_at": "2022-06-29T17:30:08.588341+00:00",
+  "updated_at": "2022-06-29T17:30:14.194804+00:00",
   "canceled_at": null,
-  "failed_at": null,
-  "_lock_token": "3c952b58-4610-42a0-b655-413d38a6aa14",
-  "_signature": "gQBgNT6DT0RVYkN02uarYs+5LopEQ2uI5lapEl9quxYtIC/BTn9SXEHANlaJJ4Gzm7CnZM1iiXU1C1VLhhsFAA=="
+  "failed_at": "2022-06-29T17:30:13.956389+00:00",
+  "_lock_token": "02cd9eca-10f8-4dcf-8b03-e7bae3388cf5",
+  "error_code": 500,
+  "error_message": "",
+  "_signature": "lPrQ4kqlEtNJQ8ilGctosBtIlZ1usu2o9dCetakXPZvt/UCc5YWV+rpeTey6euCuq8jxY7n9wy6cfEGWVnueAw=="
 }
