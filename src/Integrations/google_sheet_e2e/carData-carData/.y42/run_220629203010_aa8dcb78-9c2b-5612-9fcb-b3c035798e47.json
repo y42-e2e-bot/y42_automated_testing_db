@@ -1,6 +1,6 @@
 {
   "request_id": "220629203010_aa8dcb78-9c2b-5612-9fcb-b3c035798e47",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "6e996f68-f79a-4637-b8ec-c704caaa579e",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "d72b2b26-f99b-4d78-8176-a5027bba9fda",
     "storage_file": "gs://y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42/userUploads/v2/6/singer-google-sheets/c02785b9-a4ba-444d-906e-c7bf4f9b5864",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-29T20:30:58.750637+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220629203010_aa8dcb78-9c2b-5612-9fcb-b3c035798e47",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42&t=220629203010_aa8dcb78-9c2b-5612-9fcb-b3c035798e47&page=table"
   },
-  "_signature": "EmHfRF7tSDneAOzwsQC9Wxjrgimx5xB1JKgiFGbMd1cwX1UM+nvDGAE/z4p8Rw5Td/pb+U63y+2kp9vgjODMBw=="
+  "finished_at": "2022-06-29T20:30:58.750763+00:00",
+  "_signature": "/RDli7afrc2nP3UnM8KbG9/3kUigXrkWvKq5Af2IA0cSHHuPxRpAmA4plNvy92JErcFIcNoa+wQgp0CxggYtAQ=="
 }
