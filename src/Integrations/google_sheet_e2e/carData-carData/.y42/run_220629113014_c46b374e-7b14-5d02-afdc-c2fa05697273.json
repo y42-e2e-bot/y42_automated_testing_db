@@ -1,6 +1,6 @@
 {
   "request_id": "220629113014_c46b374e-7b14-5d02-afdc-c2fa05697273",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "6e996f68-f79a-4637-b8ec-c704caaa579e",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "3b39c213-8451-4727-926b-a14c44f7f510",
     "storage_file": "gs://y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42/userUploads/v2/6/singer-google-sheets/c8c92b88-9c97-4723-9e10-99f83ffa3322",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-29T11:31:07.483298+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220629113014_c46b374e-7b14-5d02-afdc-c2fa05697273",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42&t=220629113014_c46b374e-7b14-5d02-afdc-c2fa05697273&page=table"
   },
-  "_signature": "2noWoHAcg1d9U1CO5+q0znpRo9GQLx7o/YB9fUNT9vf4NysXvwgplNk/Qo2gbpqGsntuRYGZ2baQN0VTo/XoBA=="
+  "finished_at": "2022-06-29T11:31:07.483482+00:00",
+  "_signature": "NrVwhq/Kb/sv6pHHM1p+3lvqtGvyyQRU/0JQyTzm3zbbcM2DcA40TVApQhiRzdlmq2ZnQeWzobVm/TFKXT62Cw=="
 }
