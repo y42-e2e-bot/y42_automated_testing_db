@@ -1,6 +1,6 @@
 {
   "request_id": "220630053012_fdf90327-e43e-5f2b-98e8-e4b2439f4d77",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "6e996f68-f79a-4637-b8ec-c704caaa579e",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "a28e8379-32eb-414d-983c-138a6d02772e",
     "storage_file": "gs://y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42/userUploads/v2/6/singer-google-sheets/58c2e307-4844-4f28-be38-65949d6bacb8",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-30T05:31:00.830659+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220630053012_fdf90327-e43e-5f2b-98e8-e4b2439f4d77",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42&t=220630053012_fdf90327-e43e-5f2b-98e8-e4b2439f4d77&page=table"
   },
-  "_signature": "5MwpMtlBv0YwGoBpPIAhepTUc2gEsrI4au5e6PojDruYPGI7UuLtGrOJlIM7mZc2Exw1H4d3sPTTGtShgYU3Dw=="
+  "finished_at": "2022-06-30T05:31:00.830786+00:00",
+  "_signature": "xjlyWTiSbAqBoU6bVZ+9itbBXfBl+dNclYtl3m+j6MVDE41CR3hXFqF3bBjamnhjN3azVZXEwKXsHc5zbfS3AQ=="
 }
