@@ -1,0 +1,48 @@
+{
+  "request_id": "220630040012_806a40d8-c8d8-5961-b7be-432dec91e8bc",
+  "status": "pending",
+  "request": {
+    "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
+    "target_credentials": "6e996f68-f79a-4637-b8ec-c704caaa579e",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/singer-google-sheets/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/singer-google-sheets/0.0.0/table",
+      "columns": [
+        "auto_detect"
+      ],
+      "import": "1UoEclHqAJ6-y3fgfgWRJQBoYfm60XdKTxUFAumguCuE/carData",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-06-30T04:00:12.638787+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/google_sheet_e2e/carData-carData",
+        "id": "6:8b14c332-fdf5-42e9-908a-3522984959db",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_automated_testing_db",
+        "commit_sha": "1e2b8113600a238071dea009bbc8fe6e4b3013b0"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/scheduler/.y42/run_220630040010_6bc768f4-97d4-5aac-aff8-6a1ef32cd397.json",
+      "trial": true
+    },
+    "previous_import_id": "220630033019_1142acac-f673-5dbd-ae83-8b597052e8ad",
+    "previous_table_id": "220630033019_1142acac-f673-5dbd-ae83-8b597052e8ad"
+  },
+  "created_at": "2022-06-30T04:00:12.638787+00:00",
+  "_signature": "fj5PT52l6P7jbQaHk+4Jy2dZ5IduPtwtN0FUNX1kPkN5MLi7gRjdbrx948jo9+HppNywrCXv/J9yrRvkorSDCA=="
+}
