@@ -1,6 +1,6 @@
 {
   "request_id": "220630133011_6a204f96-b27b-5eb4-ae1a-5d749199aa28",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "6e996f68-f79a-4637-b8ec-c704caaa579e",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "2161541b-6608-4033-bd03-97f8bc1e4802",
     "storage_file": "gs://y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42/userUploads/v2/6/singer-google-sheets/fecaeaa1-c9c0-4b80-a5e5-113b05e45183",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-30T13:30:59.743546+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220630133011_6a204f96-b27b-5eb4-ae1a-5d749199aa28",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42&t=220630133011_6a204f96-b27b-5eb4-ae1a-5d749199aa28&page=table"
   },
-  "_signature": "d9y3Tnh44Jx8iVIfPg43MQUfGM2mvt0TpvnHA/ZC6ZJhM+T+y/7NmZCNe6iL3vD5fe2i0QyvxeVxtlhI2I6tDQ=="
+  "finished_at": "2022-06-30T13:30:59.743674+00:00",
+  "_signature": "uLDsN5I6+1vv21ilkSsp/wvDls7HoSlRYXLHT3xczNo5u+55E7eOETbMI3jereIiJiw6Ta38W3uLgm8r8WroAg=="
 }
