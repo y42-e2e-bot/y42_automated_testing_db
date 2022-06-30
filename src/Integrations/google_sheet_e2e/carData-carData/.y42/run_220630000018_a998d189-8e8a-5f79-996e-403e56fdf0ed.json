@@ -1,6 +1,6 @@
 {
   "request_id": "220630000018_a998d189-8e8a-5f79-996e-403e56fdf0ed",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "6e996f68-f79a-4637-b8ec-c704caaa579e",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "824abdfd-2e11-45ba-bffd-67820e259634",
     "storage_file": "gs://y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42/userUploads/v2/6/singer-google-sheets/e9a606e5-f29d-4915-8fdd-cee475a617f4",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-30T00:01:09.074173+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220630000018_a998d189-8e8a-5f79-996e-403e56fdf0ed",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42&t=220630000018_a998d189-8e8a-5f79-996e-403e56fdf0ed&page=table"
   },
-  "_signature": "UpvVRy5mSuRNaME9DAxqduQfGBsXb+O3pZDYB1whs2xNVhFmFtN83HtLccF7eTEalrtFtYlEfpBFP71wgQt6BA=="
+  "finished_at": "2022-06-30T00:01:09.074286+00:00",
+  "_signature": "VgbF8DQjiYVUEOulJMd7Fz4DQrbLbQU3JSVqAgB9eRE6Iptv4Aa2PXQKPrAmR9+895RY0/D+Y2ptNx7eepzTBg=="
 }
