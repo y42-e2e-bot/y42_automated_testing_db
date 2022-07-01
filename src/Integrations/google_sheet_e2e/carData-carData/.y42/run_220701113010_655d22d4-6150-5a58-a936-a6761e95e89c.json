@@ -1,6 +1,6 @@
 {
   "request_id": "220701113010_655d22d4-6150-5a58-a936-a6761e95e89c",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "709a24fa-b382-4126-96b4-6c4efa7706ce",
     "target_credentials": "6e996f68-f79a-4637-b8ec-c704caaa579e",
@@ -50,7 +50,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "9b9ee709-d1d5-4243-8449-9e706ce30654",
     "storage_file": "gs://y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42/userUploads/v2/6/singer-google-sheets/1f61ef66-c6ce-4857-aace-2d099d7ee9eb",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-01T11:30:54.131439+00:00",
+    "row_count": 1000,
+    "current_import_row_count": 1000,
+    "size_in_bytes": 45197,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "make",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "model",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "production_year",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220701113010_655d22d4-6150-5a58-a936-a6761e95e89c",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_879feb4579eb4201a8b3c866d8e94b42&t=220701113010_655d22d4-6150-5a58-a936-a6761e95e89c&page=table"
   },
-  "_signature": "VO3534Cql+1JizTZMVWQdWchDrLVJI+EeR+N7jzRmvGRO/4VB1/I6YXjM2uROuFaOoAkCX1xQ21qUus9jkOkDQ=="
+  "finished_at": "2022-07-01T11:30:54.131580+00:00",
+  "_signature": "w2mox3T0SIjFLrlCrO5/60hXhn6Odw7AzwgJxTBlGS+AHQ8E6Jc7RUSKet6vo4yuP78FJrmnCNKGRJdpEMzLCw=="
 }
