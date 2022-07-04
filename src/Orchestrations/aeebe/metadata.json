@@ -2,9 +2,13 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/core/y42-metadata.json",
   "name": "aeebe",
   "description": "",
-  "tags": [],
-  "owners": [],
+  "tags": [
+    "tag"
+  ],
+  "owners": [
+    "e2e-demo@y42.com"
+  ],
   "experts": [],
   "watchers": [],
-  "asset_status": "no status"
+  "asset_status": "verified"
 }
