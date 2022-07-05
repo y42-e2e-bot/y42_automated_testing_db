@@ -1,5 +1,6 @@
 {
-  "cronExpression": "",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/orchestration/orchestration-settings.json",
+  "cronExpression": "0 0 * * MON-FRI",
   "forceSchedule": false,
   "linkDataArray": [],
   "nodeDataArray": [
