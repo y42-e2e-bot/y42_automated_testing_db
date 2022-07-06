@@ -1,6 +1,6 @@
 {
   "request_id": "220706134954_4bc2a3fd-807a-56e2-bbe8-9eb852087964",
-  "status": "canceled",
+  "status": "pending",
   "request": {
     "source_credentials": "defb53fc-d802-4b5b-a9d2-5917931316dc",
     "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
@@ -48,5 +48,30 @@
   "created_at": "2022-07-06T13:49:54.593971+00:00",
   "error_code": 10,
   "error_message": "user canceled the task",
-  "_signature": "XuRZT2N9+M5dD37uSjlb/NDqM4rbtbXjzti8Ihs7D87tx9YXLIvxC5vNEWVSM+w3+B3+UB+z6WqE4PjQ7VfnAw=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-06T13:50:45.007977+00:00",
+    "external_state": {
+      "bookmarks": {
+        "PQqVGkQX": {
+          "date_to_resume": "2022-04-05T09:41:18Z",
+          "last_synchronised_response_token": "gyf469jkhhtgyf46nuq5k7am2d9fezi8"
+        },
+        "dreYAPTh": {
+          "date_to_resume": "2022-03-31T08:44:10Z",
+          "last_synchronised_response_token": "py0d9iz790pb6un5t8ahpy0d9ifbh58h"
+        },
+        "jD0GkXZw": {
+          "date_to_resume": "2022-04-05T10:25:33Z",
+          "last_synchronised_response_token": "c7v4y2knfdk6bvjnc7v4yqwuhujzbfiz"
+        }
+      },
+      "schema_hash": "699873b5155cc46ed9fd287a773f4b1d"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "de1ff4e4-d211-4556-8c85-e6996e0e1d1c",
+    "storage_file": "gs://y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729/userUploads/v2/tap-typeform/1386de3b-24d6-4af6-89fd-1cb4c1b41e3f",
+    "partial": false
+  },
+  "_signature": "7Ra1DHqv+owmdLXQTn7HC7Yxk/Lq+kRAV08c52LJsZChkDnrQCI/7WTPmq/Ozx5rxDRnmWqZjRIw0YnPcPQeAw=="
 }
