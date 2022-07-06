@@ -1,0 +1,8 @@
+{
+  "request_id": "220706102738_903a5b8d-7765-573f-93a9-e184ead528b6",
+  "status": "invalid",
+  "failed_at": "2022-07-06T10:28:14.440011+00:00",
+  "error_code": 401,
+  "error_message": "credentials invalid or not present",
+  "_signature": "BSlP5HGJhRZp2J8o1QJ9zwFwk9ShzKO4o8Y6rlWrbmJzb8IVsmWvWNanuJv5r6rVUaPG8mx9qNi35o6UyHtyBg=="
+}
