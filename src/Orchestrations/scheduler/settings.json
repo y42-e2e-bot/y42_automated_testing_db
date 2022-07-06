@@ -1,12 +1,12 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/orchestration/orchestration-settings.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/orchestration/orchestration-settings.json",
   "cronExpression": "0 0 * * MON-FRI",
   "forceSchedule": false,
   "linkDataArray": [],
   "nodeDataArray": [
     {
-      "key": "71dc9039-df52-4bd4-b9cd-63c6ffdd17c8",
-      "path": "src/Integrations/google_sheet_e2e/carData-carData",
+      "key": "f30cf076-f0bc-40e1-88e4-b6321b7bce12",
+      "path": "src/Integrations/typeform_e2e/answers",
       "location": "0 0",
       "onFailure": "stop",
       "nodeConfig": {
