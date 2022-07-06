@@ -1,0 +1,50 @@
+{
+  "request_id": "220706135835_f7d1b0e8-9f5a-5632-9d7f-75654f312fd9",
+  "status": "pending",
+  "request": {
+    "source_credentials": "defb53fc-d802-4b5b-a9d2-5917931316dc",
+    "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/typeform/0.0.0/source.json",
+      "start_date": "2021-06-01T12:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/typeform/0.0.0/table",
+      "columns": [
+        "landing_id",
+        "question_id",
+        "form_id",
+        "type",
+        "ref",
+        "data_type",
+        "answer",
+        "submitted_at"
+      ],
+      "import": "answers"
+    },
+    "created_at": "2022-07-06T13:58:35.712178+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/typeform_e2e/answers",
+        "id": "100:9728ccdf-d41a-4d1b-bac5-647679772538",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_automated_testing_db",
+        "commit_sha": "1d69d226846aa9a11f900d6e7ebeb5a9d1cf690d"
+      }
+    },
+    "context": {
+      "company_id": 100,
+      "company_slug": "demoorg",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-06T13:58:35.712178+00:00",
+  "_signature": "rJKiqLPzWeiQH7fCBw3niweK65i1MLmx0sjEUA6mDPFj96Mqw+uVk6ImqS/g7G2SffHMeZ8AjeeERsO6LnPbAA=="
+}
