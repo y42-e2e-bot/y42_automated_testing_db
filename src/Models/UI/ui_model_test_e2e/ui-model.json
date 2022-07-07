@@ -1,63 +1,63 @@
 {
   "nodeDataArray": [
     {
-      "key": "78e9c070-4514-424b-b143-5e8ffaab2787",
-      "type": "INPUT",
-      "category": "INPUT",
-      "transformationStep": {
-        "id": "78e9c070-4514-424b-b143-5e8ffaab2787",
-        "title": "carData-carData",
-        "transformationType": "INPUT",
-        "datasourceName": "google_sheet_e2e",
-        "transformObject": {
-          "source": "src/Integrations/google_sheet_e2e",
-          "table": "src/Integrations/google_sheet_e2e/carData-carData",
-          "lang": ""
-        }
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "-351 -23"
-    },
-    {
-      "key": "f9363736-675e-40fc-8cf4-02abe937cd1b",
+      "key": "9746d8ad-c4fb-468a-837f-9487db808baf",
       "type": "GROUP_BY",
       "category": "GROUP_BY",
       "transformationStep": {
-        "id": "f9363736-675e-40fc-8cf4-02abe937cd1b",
+        "id": "9746d8ad-c4fb-468a-837f-9487db808baf",
         "title": "",
         "transformationType": "GROUP_BY",
         "transformObject": {
           "columns": [
             {
-              "name": "make",
-              "alias": "total_on_production",
+              "name": "answer",
+              "alias": "total_answers",
               "func": "COUNT"
             }
           ],
           "groupBy": [
-            "make"
+            "form_id"
           ]
         }
       },
       "isGroup": true,
       "group": "",
-      "location": "-83 -40"
+      "location": "-106 -59"
     },
     {
-      "key": "6da2abe2-0eb9-44da-b421-8c493478d41e",
+      "key": "a302a5c1-48aa-4f9b-8e1b-e5ec4f1efe18",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "a302a5c1-48aa-4f9b-8e1b-e5ec4f1efe18",
+        "title": "src/Integrations/typeform_e2e/answers",
+        "transformationType": "INPUT",
+        "datasourceName": "typeform_e2e",
+        "transformObject": {
+          "source": "src/Integrations/typeform_e2e",
+          "table": "src/Integrations/typeform_e2e/answers",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-353 -51"
+    },
+    {
+      "key": "d2b35c55-6d5e-4713-a4a0-53612b8d9849",
       "type": "OUTPUT",
       "category": "OUTPUT",
       "transformationStep": {
-        "id": "6da2abe2-0eb9-44da-b421-8c493478d41e",
+        "id": "d2b35c55-6d5e-4713-a4a0-53612b8d9849",
         "title": "ui_model_test_e2e",
         "transformationType": "OUTPUT",
         "transformObject": {
           "name": "ui_model_test_e2e",
           "fields": [
             {
-              "target": "make",
-              "source": "make",
+              "target": "form_id",
+              "source": "form_id",
               "type": "STRING",
               "display": true,
               "changed": false,
@@ -67,8 +67,8 @@
               "sourceTypeChanged": false
             },
             {
-              "target": "total_on_production",
-              "source": "total_on_production",
+              "target": "total_answers",
+              "source": "total_answers",
               "type": "NUMERIC",
               "display": true,
               "changed": false,
@@ -82,17 +82,17 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "175 -32"
+      "location": "203 -65"
     }
   ],
   "linkDataArray": [
     {
-      "from": "78e9c070-4514-424b-b143-5e8ffaab2787",
-      "to": "f9363736-675e-40fc-8cf4-02abe937cd1b"
+      "from": "a302a5c1-48aa-4f9b-8e1b-e5ec4f1efe18",
+      "to": "9746d8ad-c4fb-468a-837f-9487db808baf"
     },
     {
-      "from": "f9363736-675e-40fc-8cf4-02abe937cd1b",
-      "to": "6da2abe2-0eb9-44da-b421-8c493478d41e"
+      "from": "9746d8ad-c4fb-468a-837f-9487db808baf",
+      "to": "d2b35c55-6d5e-4713-a4a0-53612b8d9849"
     }
   ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
