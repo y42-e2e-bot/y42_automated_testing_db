@@ -65,5 +65,30 @@
     "previous_table_id": "220707072109_b6ffd680-916e-54e5-a0af-36e0aaee05e6"
   },
   "created_at": "2022-07-07T07:46:24.547870+00:00",
-  "_signature": "o9U0g9rNaGsoiojf6b6gSnbWVddR3xsSSTX1pbapDRsKVuWDJ0XTm4efqA8ShoBvAQv+WezdADBo8KrBQCUyDQ=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-07T07:47:06.194772+00:00",
+    "external_state": {
+      "bookmarks": {
+        "PQqVGkQX": {
+          "date_to_resume": "2022-04-05T09:41:18Z",
+          "last_synchronised_response_token": "gyf469jkhhtgyf46nuq5k7am2d9fezi8"
+        },
+        "dreYAPTh": {
+          "date_to_resume": "2022-03-31T08:44:10Z",
+          "last_synchronised_response_token": "py0d9iz790pb6un5t8ahpy0d9ifbh58h"
+        },
+        "jD0GkXZw": {
+          "date_to_resume": "2022-04-05T10:25:33Z",
+          "last_synchronised_response_token": "c7v4y2knfdk6bvjnc7v4yqwuhujzbfiz"
+        }
+      },
+      "schema_hash": "699873b5155cc46ed9fd287a773f4b1d"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "9b6100e8-d474-476b-9caa-30aa5e76a155",
+    "storage_file": "gs://y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729/userUploads/v2/tap-typeform/3e19a724-1523-4316-97c9-d38ed38f58fc",
+    "partial": false
+  },
+  "_signature": "4jRbINwI9RBWVhStWiTGFoHTza+gV4q9vammgVLR0snGFRCwr0edrUmep0mQJUJKL31BLI6320I6nkDBufetCQ=="
 }
