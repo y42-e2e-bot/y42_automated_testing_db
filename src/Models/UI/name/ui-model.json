@@ -1,5 +1,32 @@
 {
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "ae65c55c-3d3c-492e-bc72-cf5c9d03802e",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "ae65c55c-3d3c-492e-bc72-cf5c9d03802e",
+        "title": "",
+        "transformationType": "INPUT"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "0 0"
+    },
+    {
+      "key": "bf8d5959-0e72-465e-b1d0-14b80232dc52",
+      "type": "GROUP_BY",
+      "category": "GROUP_BY",
+      "transformationStep": {
+        "id": "bf8d5959-0e72-465e-b1d0-14b80232dc52",
+        "title": "",
+        "transformationType": "GROUP_BY"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "50 50"
+    }
+  ],
   "linkDataArray": [],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
