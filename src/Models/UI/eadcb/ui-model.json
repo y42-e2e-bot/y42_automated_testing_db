@@ -1,5 +1,19 @@
 {
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "71cd3c44-36c5-4860-a467-ec050090c1f6",
+      "type": "GROUP_BY",
+      "category": "GROUP_BY",
+      "transformationStep": {
+        "id": "71cd3c44-36c5-4860-a467-ec050090c1f6",
+        "title": "",
+        "transformationType": "GROUP_BY"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "0 0"
+    }
+  ],
   "linkDataArray": [],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
