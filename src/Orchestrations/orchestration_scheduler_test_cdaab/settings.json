@@ -1,8 +1,18 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.1/orchestration/orchestration-settings.json",
-  "cronExpression": "",
+  "cronExpression": "0/23 * 1/1 * *",
   "forceSchedule": false,
   "linkDataArray": [],
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "393edf0e-6869-4c4a-ad11-7418c8edb2a1",
+      "path": "src/Models/UI/ui_model_test_e2e/ui_model_test_e2e",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
