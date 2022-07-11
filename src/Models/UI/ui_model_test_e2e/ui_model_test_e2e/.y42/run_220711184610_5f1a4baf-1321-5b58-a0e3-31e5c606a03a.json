@@ -1,0 +1,40 @@
+{
+  "request_id": "220711184610_5f1a4baf-1321-5b58-a0e3-31e5c606a03a",
+  "status": "pending",
+  "request": {
+    "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "d2b35c55-6d5e-4713-a4a0-53612b8d9849"
+    },
+    "created_at": "2022-07-11T18:46:10.307303+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/ui_model_test_e2e/ui_model_test_e2e",
+        "id": "100:9728ccdf-d41a-4d1b-bac5-647679772538",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_automated_testing_db",
+        "commit_sha": "f844910a072ae0d944201ff74d3b40bed16589e9"
+      }
+    },
+    "context": {
+      "company_id": 100,
+      "company_slug": "demoorg",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/orchestration_scheduler_test_ceccd/.y42/run_fbb97c99-6cb4-4b71-9672-6e8a89a6b342.json",
+      "trial": false
+    },
+    "previous_import_id": "d1ad9d72-dd83-5d36-a9b9-d5b2498e7b2b",
+    "previous_table_id": "220711182309_d1ad9d72-dd83-5d36-a9b9-d5b2498e7b2b"
+  },
+  "created_at": "2022-07-11T18:46:10.307303+00:00",
+  "_signature": "seNKij4ogqnFZGSJyTKi5mjxCjWp2KWtbQ4zvcgm2nmTFQkTd4OqnhCQL2oK1WmAM3Z+5JSWu5AAyddy+j8WBQ=="
+}
