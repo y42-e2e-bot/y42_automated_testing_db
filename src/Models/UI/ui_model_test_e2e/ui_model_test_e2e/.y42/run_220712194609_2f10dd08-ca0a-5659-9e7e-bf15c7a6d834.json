@@ -1,6 +1,6 @@
 {
   "request_id": "220712194609_2f10dd08-ca0a-5659-9e7e-bf15c7a6d834",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
     "source_settings": {
@@ -36,5 +36,28 @@
     "previous_table_id": "220712192309_c41bd056-03a3-56eb-8231-a9dbf0716590"
   },
   "created_at": "2022-07-12T19:46:09.442548+00:00",
-  "_signature": "PbB+kRJ3HA3qgRi2KNr3wGKwbY/s9+MA/Xj9qOk6ja+EZUFcMq2XHyDrXa2XaYPPFN79JFDqO50XgI9jvTKsCg=="
+  "finished_at": "2022-07-12T19:46:37.599723+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-12T19:46:37.599519+00:00",
+    "row_count": 3,
+    "current_import_row_count": 3,
+    "size_in_bytes": 54,
+    "external_id": "21fd4036-1936-4e81-8fc4-5339dd68e972",
+    "columns": [
+      {
+        "field_name": "form_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "total_answers",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220712194609_2f10dd08-ca0a-5659-9e7e-bf15c7a6d834",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729&t=220712194609_2f10dd08-ca0a-5659-9e7e-bf15c7a6d834&page=table"
+  },
+  "_signature": "QzSXj5z7KV8b+zQC127N7xPPgBhEQ0+Y6gCUzs6fi5VP5BG3++yzIev+leNY0yZnHH93K6tVvYqwnVRgv2WiCw=="
 }
