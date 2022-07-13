@@ -1,0 +1,63 @@
+{
+  "request_id": "220713074609_1b8f41b9-4b97-5f53-88a9-d5d883af85e8",
+  "status": "ready",
+  "request": {
+    "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "d2b35c55-6d5e-4713-a4a0-53612b8d9849"
+    },
+    "created_at": "2022-07-13T07:46:09.567673+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/ui_model_test_e2e/ui_model_test_e2e",
+        "id": "100:9728ccdf-d41a-4d1b-bac5-647679772538",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_automated_testing_db",
+        "commit_sha": "22c7eb0389d1a7f8197f3949cbc2a9e605473f6c"
+      }
+    },
+    "context": {
+      "company_id": 100,
+      "company_slug": "demoorg",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/orchestration_scheduler_test_ceccd/.y42/run_bfd30cb1-448e-401f-b34d-26e64f4bd56c.json",
+      "trial": false
+    },
+    "previous_import_id": "1a2d0189-43a3-54d3-a08b-d0c2554148ac",
+    "previous_table_id": "220713072308_1a2d0189-43a3-54d3-a08b-d0c2554148ac"
+  },
+  "created_at": "2022-07-13T07:46:09.567673+00:00",
+  "finished_at": "2022-07-13T07:46:38.319272+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-13T07:46:38.319116+00:00",
+    "row_count": 3,
+    "current_import_row_count": 3,
+    "size_in_bytes": 54,
+    "external_id": "82b522db-75b8-4bdc-b04d-694acf24d4e7",
+    "columns": [
+      {
+        "field_name": "form_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "total_answers",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220713074609_1b8f41b9-4b97-5f53-88a9-d5d883af85e8",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729&t=220713074609_1b8f41b9-4b97-5f53-88a9-d5d883af85e8&page=table"
+  },
+  "_signature": "UW51xPHha5C/5SjIRuYecjC4BOHZOYpdmuiVMfvgrfM7s9wZZT+t2Z6YWo8AluIpKn3ELuaqD0+TUtq18hb/DQ=="
+}
