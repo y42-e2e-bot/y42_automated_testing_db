@@ -1,6 +1,6 @@
 {
   "request_id": "220714144052_71b2e988-24c8-5317-b1aa-0677a4e4e129",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
     "source_settings": {
@@ -34,5 +34,58 @@
     }
   },
   "created_at": "2022-07-14T14:40:52.690931+00:00",
-  "_signature": "ae64co6TT7RpdjaHjdXH5hyl29oVh9Zpu00C8rwGzZkr+AFRu8RCLpdXxbwHc4rLim4ptiuOqVrj/nKVrFElDw=="
+  "finished_at": "2022-07-14T14:41:35.226760+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-14T14:41:35.226537+00:00",
+    "row_count": 15,
+    "current_import_row_count": 15,
+    "size_in_bytes": 2314,
+    "external_id": "495fd82d-abc0-4c79-9540-8e68f370cee7",
+    "columns": [
+      {
+        "field_name": "landing_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "question_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "form_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "ref",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "data_type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "answer",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "submitted_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      }
+    ],
+    "table_name": "220714144052_71b2e988-24c8-5317-b1aa-0677a4e4e129",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729&t=220714144052_71b2e988-24c8-5317-b1aa-0677a4e4e129&page=table"
+  },
+  "_signature": "ZAxdTQhnlR8kkWGuh0/uDdu90mkRwlcdjV1aBqBfvbmCOO8yKVRiEC9fZyWvc/lHxUhiMm2lwSgf4YP2A/u+Dw=="
 }
