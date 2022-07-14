@@ -1,5 +1,138 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "929787a4-d057-413a-977f-7c47c6b284c7",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "929787a4-d057-413a-977f-7c47c6b284c7",
+        "title": "src/Integrations/typeform_e2e/answers",
+        "transformationType": "INPUT",
+        "datasourceName": "typeform_e2e",
+        "transformObject": {
+          "source": "src/Integrations/typeform_e2e",
+          "table": "src/Integrations/typeform_e2e/answers",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-350 -102"
+    },
+    {
+      "key": "5262cdaf-fb2c-4376-8ef5-b183bb9699f1",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "5262cdaf-fb2c-4376-8ef5-b183bb9699f1",
+        "title": "trigger",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "trigger",
+          "fields": [
+            {
+              "target": "landing_id",
+              "source": "landing_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "question_id",
+              "source": "question_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "form_id",
+              "source": "form_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "type",
+              "source": "type",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "ref",
+              "source": "ref",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "data_type",
+              "source": "data_type",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "answer",
+              "source": "answer",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "submitted_at",
+              "source": "submitted_at",
+              "type": "TIMESTAMP",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-57 -101"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "to": "5262cdaf-fb2c-4376-8ef5-b183bb9699f1",
+      "from": "929787a4-d057-413a-977f-7c47c6b284c7",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
