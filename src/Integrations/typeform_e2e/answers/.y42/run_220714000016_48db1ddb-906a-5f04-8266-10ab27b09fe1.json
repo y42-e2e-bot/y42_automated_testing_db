@@ -1,6 +1,6 @@
 {
   "request_id": "220714000016_48db1ddb-906a-5f04-8266-10ab27b09fe1",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "defb53fc-d802-4b5b-a9d2-5917931316dc",
     "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
@@ -88,7 +88,57 @@
     "write_disposition": "TRUNCATE",
     "external_id": "03bef68d-16fb-403b-bfc4-267bfbfe5608",
     "storage_file": "gs://y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729/userUploads/v2/tap-typeform/d408af89-e459-4834-82b2-65e059f58747",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-14T00:01:23.846640+00:00",
+    "row_count": 15,
+    "current_import_row_count": 15,
+    "size_in_bytes": 2314,
+    "previous_id": "6323e344-46dc-58b9-b85e-516fc8107269",
+    "columns": [
+      {
+        "field_name": "landing_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "question_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "form_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "ref",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "data_type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "answer",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "submitted_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      }
+    ],
+    "table_name": "220714000016_48db1ddb-906a-5f04-8266-10ab27b09fe1",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729&t=220714000016_48db1ddb-906a-5f04-8266-10ab27b09fe1&page=table"
   },
-  "_signature": "AipePzqQikADoQzAERANJtx78YyaL0JjZTp7Z/lantj6wzwwaR34UYWgDgL5M35wg1cEUuFAjE+Wua/Xi8UuAg=="
+  "finished_at": "2022-07-14T00:01:23.846763+00:00",
+  "_signature": "uRcLrijrXC1qFbOnFq67fIXUCVc2Mvo1M9BYB11YMYvGioZkWmnXFhmmxmsr0UhnfM1kDW7VCD9CFu+5CpenAQ=="
 }
