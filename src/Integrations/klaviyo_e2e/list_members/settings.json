@@ -1,0 +1,11 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/klaviyo/0.0.0/table",
+  "columns": [
+    "id",
+    "email",
+    "phone_number",
+    "push_token",
+    "list_id"
+  ],
+  "import": "list_members"
+}
