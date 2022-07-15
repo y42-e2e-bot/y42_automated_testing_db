@@ -1,6 +1,6 @@
 {
   "request_id": "220715085644_5b53f2b7-0138-5646-ad4b-6c5603623c0f",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
     "source_settings": {
@@ -36,5 +36,43 @@
     }
   },
   "created_at": "2022-07-15T08:56:44.516327+00:00",
-  "_signature": "dggTjRBZHs8acau0knmWKgnLLz1SX9MxdMnYFMQblV9x2a0T9IpY10WTnrxoJsgXCQUx6bssHHKzq2PNCk7pCg=="
+  "finished_at": "2022-07-15T08:57:23.679024+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-15T08:57:23.678884+00:00",
+    "row_count": 99,
+    "current_import_row_count": 99,
+    "size_in_bytes": 5765,
+    "external_id": "8aa17341-62d4-47a4-9423-bbd9afaefde8",
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "email",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "phone_number",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "push_token",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "list_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220715085644_5b53f2b7-0138-5646-ad4b-6c5603623c0f",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729&t=220715085644_5b53f2b7-0138-5646-ad4b-6c5603623c0f&page=table"
+  },
+  "_signature": "RXJuuXg67Y5hk0woJ1vz+db1Yz+FtDmkV2rxMyvZpXmCXvxecVQo1Ws7QjAmCFcauNKlFcqgDhJLq11hw50QCg=="
 }
