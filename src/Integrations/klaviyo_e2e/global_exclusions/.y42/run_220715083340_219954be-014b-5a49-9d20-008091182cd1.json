@@ -1,0 +1,49 @@
+{
+  "request_id": "220715083340_219954be-014b-5a49-9d20-008091182cd1",
+  "status": "invalid",
+  "request": {
+    "source_credentials": "3f3dcacf-4577-46e7-b38c-889b298e1fe0",
+    "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/klaviyo/0.0.0/source.json",
+      "start_date": "2021-07-15T10:20:45Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/klaviyo/0.0.0/table",
+      "columns": [
+        "timestamp",
+        "reason",
+        "object",
+        "email"
+      ],
+      "import": "global_exclusions"
+    },
+    "created_at": "2022-07-15T08:33:40.593317+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/klaviyo_e2e/global_exclusions",
+        "id": "100:9728ccdf-d41a-4d1b-bac5-647679772538",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_automated_testing_db",
+        "commit_sha": "331b26a9eb11f918e037a62cf55a4520362e3629"
+      }
+    },
+    "context": {
+      "company_id": 100,
+      "company_slug": "demoorg",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-15T08:33:40.593317+00:00",
+  "failed_at": "2022-07-15T08:33:59.082050+00:00",
+  "error_code": 404,
+  "error_message": "no data",
+  "_signature": "9/+NMxR2EKKHPRdsnRTqSmKKfp9SZTx2XKjed3zBTLhS8vfc1GsL6BIYMAjzWxg3p5Ea75PWPHafBjmFFH+GCw=="
+}
