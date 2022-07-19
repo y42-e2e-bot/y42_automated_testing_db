@@ -46,5 +46,30 @@
     }
   },
   "created_at": "2022-07-19T07:24:18.568715+00:00",
-  "_signature": "Q8osNOq+zlbt3WMl+F8H8EbuWEQOCAa42iqzNSUZlIRr1pgTcmnWsKVQCgJ1rQjXQ0s2wRu12oR/w/FXgjJDBw=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-19T07:24:55.894885+00:00",
+    "external_state": {
+      "bookmarks": {
+        "PQqVGkQX": {
+          "date_to_resume": "2022-04-05T09:41:18Z",
+          "last_synchronised_response_token": "gyf469jkhhtgyf46nuq5k7am2d9fezi8"
+        },
+        "dreYAPTh": {
+          "date_to_resume": "2022-03-31T08:44:10Z",
+          "last_synchronised_response_token": "py0d9iz790pb6un5t8ahpy0d9ifbh58h"
+        },
+        "jD0GkXZw": {
+          "date_to_resume": "2022-04-05T10:25:33Z",
+          "last_synchronised_response_token": "c7v4y2knfdk6bvjnc7v4yqwuhujzbfiz"
+        }
+      },
+      "schema_hash": "699873b5155cc46ed9fd287a773f4b1d"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "f67a3604-069f-47be-8796-8c85ebc89c74",
+    "storage_file": "gs://y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729/userUploads/v2/tap-typeform/dd29ef21-150f-4940-9db8-bb265ec21001",
+    "partial": false
+  },
+  "_signature": "Uz+vrcAqONpXNcoltBiQFQBkCF8SgWHGphb2X7FZnkDHI8ec8NaXKyMNiK6q/aKfrH3ioqnCYLRoCWbjS+9pDw=="
 }
