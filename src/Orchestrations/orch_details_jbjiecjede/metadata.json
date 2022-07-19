@@ -2,7 +2,9 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
   "name": "orch_details_jbjiecjede",
   "description": "",
-  "tags": [],
+  "tags": [
+    "tag"
+  ],
   "owners": {
     "user_ids": [],
     "team_ids": []
