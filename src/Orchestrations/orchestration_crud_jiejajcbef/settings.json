@@ -3,6 +3,16 @@
   "cronExpression": "",
   "forceSchedule": false,
   "linkDataArray": [],
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "d5527681-dc3c-4cb1-87cd-f58b5ac433b9",
+      "path": "src/Integrations/typeform_e2e/answers",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
