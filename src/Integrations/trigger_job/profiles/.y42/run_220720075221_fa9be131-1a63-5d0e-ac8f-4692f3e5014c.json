@@ -1,6 +1,6 @@
 {
   "request_id": "220720075221_fa9be131-1a63-5d0e-ac8f-4692f3e5014c",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "dab6e38f-be25-424f-9fcf-c6fcabab2d82",
     "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
@@ -69,7 +69,126 @@
     "write_disposition": "TRUNCATE",
     "external_id": "fa6822f7-209c-4058-9c07-04e4195efc74",
     "storage_file": "gs://y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729/userUploads/v2/tap-klaviyo/181ea388-8b25-4ecc-8edb-90f236855b78",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-20T07:53:33.359302+00:00",
+    "row_count": 100,
+    "current_import_row_count": 100,
+    "size_in_bytes": 22500,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "address1",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "address2",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "city",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "latitude",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "longitude",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "region",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "zip",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "last_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "first_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "organization",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "phone_number",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "email",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "timezone",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id_1",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "email_1",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "first_name_1",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "last_name_1",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "created",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "updated",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220720075221_fa9be131-1a63-5d0e-ac8f-4692f3e5014c",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729&t=220720075221_fa9be131-1a63-5d0e-ac8f-4692f3e5014c&page=table"
   },
-  "_signature": "M/fcZTchNZCTHcaec5W3in17niglrlle3nkRZNypZyozwhNYaOnuIiOhPmy+bsIVYm7q37lyfWSvMHFoirSfAQ=="
+  "finished_at": "2022-07-20T07:53:33.359453+00:00",
+  "_signature": "6wGzRHSm8D4vSN6sbBjEQPc/DNFttmPgFOPs87AJw92wmnbIL8tdoj3NtvxMhAsrg/GVPDvNDQWNxoPl7ElMBg=="
 }
