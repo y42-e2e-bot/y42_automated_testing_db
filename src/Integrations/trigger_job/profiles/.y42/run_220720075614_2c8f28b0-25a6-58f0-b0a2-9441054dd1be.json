@@ -1,0 +1,64 @@
+{
+  "request_id": "220720075614_2c8f28b0-25a6-58f0-b0a2-9441054dd1be",
+  "status": "pending",
+  "request": {
+    "source_credentials": "dab6e38f-be25-424f-9fcf-c6fcabab2d82",
+    "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/klaviyo/0.0.0/source.json",
+      "start_date": "2021-07-20T09:50:15Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/klaviyo/0.0.0/table",
+      "columns": [
+        "id",
+        "$address1",
+        "$address2",
+        "$city",
+        "$country",
+        "$latitude",
+        "$longitude",
+        "$region",
+        "$zip",
+        "$last_name",
+        "$first_name",
+        "$organization",
+        "$phone_number",
+        "$title",
+        "$email",
+        "$timezone",
+        "$id",
+        "email",
+        "first_name",
+        "last_name",
+        "created",
+        "updated"
+      ],
+      "import": "profiles"
+    },
+    "created_at": "2022-07-20T07:56:14.901164+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/trigger_job/profiles",
+        "id": "100:9728ccdf-d41a-4d1b-bac5-647679772538",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_automated_testing_db",
+        "commit_sha": "eb74c9017fbe68b9f36a72efcbb9b5181eb6a1a3"
+      }
+    },
+    "context": {
+      "company_id": 100,
+      "company_slug": "demoorg",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": false
+    }
+  },
+  "created_at": "2022-07-20T07:56:14.901164+00:00",
+  "_signature": "Raz1wUcsG7RuZ/REpHrmG8WDlYFSeDYt1zZTCUZBtb2nFVD//Y6+duwWBbhsbcc27Z3U7l2RW+shUierFSmCDQ=="
+}
