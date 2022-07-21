@@ -3,6 +3,25 @@
   "cronExpression": "",
   "forceSchedule": false,
   "linkDataArray": [],
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "041ef94c-b092-47ae-8d01-672d1aadda47",
+      "path": "src/Integrations/trigger_job/campaigns",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "fa44b6f1-8ace-4435-8342-9035b3ffa134",
+      "path": "src/Integrations/trigger_job/profiles",
+      "location": "0 62",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
