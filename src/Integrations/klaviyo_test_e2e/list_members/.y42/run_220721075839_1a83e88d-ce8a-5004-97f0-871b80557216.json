@@ -1,0 +1,52 @@
+{
+  "request_id": "220721075839_1a83e88d-ce8a-5004-97f0-871b80557216",
+  "status": "pending",
+  "request": {
+    "source_credentials": "b5aa0970-3bd9-4f0c-a591-79a6ae4157c8",
+    "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/klaviyo/0.0.0/source.json",
+      "start_date": "2021-07-15T10:43:34Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/klaviyo/0.0.0/table",
+      "columns": [
+        "id",
+        "email",
+        "phone_number",
+        "push_token",
+        "list_id"
+      ],
+      "import": "list_members"
+    },
+    "created_at": "2022-07-21T07:58:39.421550+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/klaviyo_test_e2e/list_members",
+        "id": "100:9728ccdf-d41a-4d1b-bac5-647679772538",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_automated_testing_db",
+        "commit_sha": "3bd0ff6eb3dcc49ca8c0d588588cc6c2eafb3346"
+      }
+    },
+    "context": {
+      "company_id": 100,
+      "company_slug": "demoorg",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/orchestration_trigger_run/.y42/run_e9ec2e54-c813-40ce-8f5b-452573a23bd4.json",
+      "trial": false
+    },
+    "state": {
+      "schema_hash": "224f9875880b9633ac8bf4dd4cd73013"
+    },
+    "previous_import_id": "ee8baf80-dd99-5f39-9b7f-e1482427ca02",
+    "previous_table_id": "220721073109_ee8baf80-dd99-5f39-9b7f-e1482427ca02"
+  },
+  "created_at": "2022-07-21T07:58:39.421550+00:00",
+  "_signature": "XlY87tMautC1LnqT50wpQV9onYWi45glUtZHytM97eI+NCM/H6sOxKHXFuSWsOeU7F6tCN9TAob9Co0Bb3x1CQ=="
+}
