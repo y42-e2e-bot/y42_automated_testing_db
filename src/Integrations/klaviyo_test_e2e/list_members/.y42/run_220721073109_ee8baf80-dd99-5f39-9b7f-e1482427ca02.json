@@ -1,6 +1,6 @@
 {
   "request_id": "220721073109_ee8baf80-dd99-5f39-9b7f-e1482427ca02",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "b5aa0970-3bd9-4f0c-a591-79a6ae4157c8",
     "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
@@ -57,7 +57,42 @@
     "write_disposition": "TRUNCATE",
     "external_id": "f623b381-6133-4f6b-88c9-6c8afa23c5c2",
     "storage_file": "gs://y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729/userUploads/v2/tap-klaviyo/0e5a92fe-b9ae-4dc4-808b-b7c98acd5a71",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-21T07:33:08.906395+00:00",
+    "row_count": 250,
+    "current_import_row_count": 250,
+    "size_in_bytes": 14531,
+    "previous_id": "ee98405c-b4a0-5710-92c3-5245ad3095fb",
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "email",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "phone_number",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "push_token",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "list_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220721073109_ee8baf80-dd99-5f39-9b7f-e1482427ca02",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729&t=220721073109_ee8baf80-dd99-5f39-9b7f-e1482427ca02&page=table"
   },
-  "_signature": "0vJT+e46DLbfoEzyMHZ6ixpUwOUSSj62GXp4MvagaYRODZNPmpduT6+OaxaSCh6NsQJwc+nKZ9KABD3cj1BBCQ=="
+  "finished_at": "2022-07-21T07:33:08.906543+00:00",
+  "_signature": "O61zj+nVEn2ef0TpdEkAA/7bUNpYwioaDaQR/cAd9wnrRzCZuAc87Re7QPHsU8vdYD/RtwG3MCen0KGVx4IjAQ=="
 }
