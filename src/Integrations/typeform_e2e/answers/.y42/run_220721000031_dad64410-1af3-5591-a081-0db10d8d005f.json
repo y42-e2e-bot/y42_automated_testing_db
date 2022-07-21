@@ -1,0 +1,69 @@
+{
+  "request_id": "220721000031_dad64410-1af3-5591-a081-0db10d8d005f",
+  "status": "pending",
+  "request": {
+    "source_credentials": "defb53fc-d802-4b5b-a9d2-5917931316dc",
+    "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/typeform/0.0.0/source.json",
+      "start_date": "2021-06-02T08:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/typeform/0.0.0/table",
+      "columns": [
+        "landing_id",
+        "question_id",
+        "form_id",
+        "type",
+        "ref",
+        "data_type",
+        "answer",
+        "submitted_at"
+      ],
+      "import": "answers"
+    },
+    "created_at": "2022-07-21T00:00:31.312234+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/typeform_e2e/answers",
+        "id": "100:9728ccdf-d41a-4d1b-bac5-647679772538",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "",
+        "owner": "y42-e2e-bot",
+        "repo": "y42_automated_testing_db",
+        "commit_sha": "490b21911c888861d3fdf7b616fe02ab5a2cf013"
+      }
+    },
+    "context": {
+      "company_id": 100,
+      "company_slug": "demoorg",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/scheduler/.y42/run_154741f9-6221-436f-9023-9a243125b2f5.json",
+      "trial": false
+    },
+    "state": {
+      "bookmarks": {
+        "PQqVGkQX": {
+          "date_to_resume": "2022-04-05T09:41:18Z",
+          "last_synchronised_response_token": "gyf469jkhhtgyf46nuq5k7am2d9fezi8"
+        },
+        "dreYAPTh": {
+          "date_to_resume": "2022-03-31T08:44:10Z",
+          "last_synchronised_response_token": "py0d9iz790pb6un5t8ahpy0d9ifbh58h"
+        },
+        "jD0GkXZw": {
+          "date_to_resume": "2022-04-05T10:25:33Z",
+          "last_synchronised_response_token": "c7v4y2knfdk6bvjnc7v4yqwuhujzbfiz"
+        }
+      },
+      "schema_hash": "699873b5155cc46ed9fd287a773f4b1d"
+    },
+    "previous_import_id": "53b12757-5e3e-5d68-be99-7b9032dded9a",
+    "previous_table_id": "220720085523_53b12757-5e3e-5d68-be99-7b9032dded9a"
+  },
+  "created_at": "2022-07-21T00:00:31.312234+00:00",
+  "_signature": "wIocHOlKgUB/l6KnMNYDKvY6GdxTLxcyR+fyvhWL47moIxVD+oEnavhPhDGiaSjHzZziJTuSrflU8ngjpq1CAg=="
+}
