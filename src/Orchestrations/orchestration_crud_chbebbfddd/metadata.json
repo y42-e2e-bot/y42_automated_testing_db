@@ -1,14 +1,10 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
-  "name": "jfghggdjje",
+  "name": "orchestration_crud_chbebbfddd",
   "description": "",
-  "tags": [
-    "tag"
-  ],
+  "tags": [],
   "owners": {
-    "user_ids": [
-      "hd@y42.com"
-    ],
+    "user_ids": [],
     "team_ids": []
   },
   "experts": {
@@ -16,9 +12,7 @@
     "team_ids": []
   },
   "watchers": {
-    "user_ids": [
-      "hd@y42.com"
-    ],
+    "user_ids": [],
     "team_ids": []
   },
   "asset_status": "no status"
