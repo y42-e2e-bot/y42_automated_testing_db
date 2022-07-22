@@ -1,6 +1,6 @@
 {
   "request_id": "220722140356_5d9a2b4b-0344-5397-9db6-aa0cc1381623",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "dab6e38f-be25-424f-9fcf-c6fcabab2d82",
     "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
@@ -56,7 +56,61 @@
     "write_disposition": "TRUNCATE",
     "external_id": "26f55fc2-f98f-419c-8678-e6bf6a285b15",
     "storage_file": "gs://y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729/userUploads/v2/tap-klaviyo/61544a07-577a-4b2f-9377-87a110fba379",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-22T14:04:31.450373+00:00",
+    "row_count": 1,
+    "current_import_row_count": 1,
+    "size_in_bytes": 293,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "object",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "subject",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "from_email",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "lists",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "status",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sent_at",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "created_at",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220722140356_5d9a2b4b-0344-5397-9db6-aa0cc1381623",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729&t=220722140356_5d9a2b4b-0344-5397-9db6-aa0cc1381623&page=table"
   },
-  "_signature": "hsC0hzdN+DWnZLw25HsHr3448zh7H2LeO6xDF073Tq8t+vYHzFWXLnDKcZiqv4YbNqYcAKnEBxmkc5BN8UpeBQ=="
+  "finished_at": "2022-07-22T14:04:31.450517+00:00",
+  "_signature": "m83C81AdJPoqRz5lK3LACBV9mJPTNlj+ZaJD4mkPEN5JqDW7QCDmh4BXbP9PPvWy9RNcZ0RuHVmxjgkcqLKgCg=="
 }
