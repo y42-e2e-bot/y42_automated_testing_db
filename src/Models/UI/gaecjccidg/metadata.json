@@ -2,9 +2,13 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
   "name": "gaecjccidg",
   "description": "",
-  "tags": [],
+  "tags": [
+    "tag"
+  ],
   "owners": {
-    "user_ids": [],
+    "user_ids": [
+      "hd@y42.com"
+    ],
     "team_ids": []
   },
   "experts": {
@@ -12,7 +16,9 @@
     "team_ids": []
   },
   "watchers": {
-    "user_ids": [],
+    "user_ids": [
+      "hd@y42.com"
+    ],
     "team_ids": []
   },
   "asset_status": "no status"
