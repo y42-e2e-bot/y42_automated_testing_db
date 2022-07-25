@@ -52,5 +52,16 @@
     "previous_table_id": "220725120816_de23f52f-a08d-50cc-89fa-5e7dba2844b9"
   },
   "created_at": "2022-07-25T12:23:13.346623+00:00",
-  "_signature": "+XgXaqf3FWz2HDn6rrr+F86c0Yuc9dwnKsgKGXLZnc9fp/ynUXKDZjAhdGlG3T6TsDI1oFLYBl6IEtuQf/naDA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-25T12:23:50.437363+00:00",
+    "external_state": {
+      "schema_hash": "83efc2ca1568e386abd7899dbd63f886"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "d938db84-f6cf-4cfc-b9c7-8f48d69b127b",
+    "storage_file": "gs://y42_automatedtesting_1fe608672f0644b3a4e6e39fab683729/userUploads/v2/tap-klaviyo/681533f6-bb52-4f6c-b27b-7f9a3cf745b7",
+    "partial": false
+  },
+  "_signature": "+yqtrj8PDhZnYETnH7WoaAPc4Xw/NvU1b3c2WZadLT0MFXm1/zPGM9Nysrek0xJjDQ8y+CvH2o2sfk3l/GONDA=="
 }
