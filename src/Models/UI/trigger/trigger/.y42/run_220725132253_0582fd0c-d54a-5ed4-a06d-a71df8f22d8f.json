@@ -1,6 +1,6 @@
 {
   "request_id": "220725132253_0582fd0c-d54a-5ed4-a06d-a71df8f22d8f",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target_credentials": "26a57e04-7759-493b-b41b-f467203209a4",
     "source_settings": {
@@ -34,5 +34,8 @@
     }
   },
   "created_at": "2022-07-25T13:22:53.852700+00:00",
-  "_signature": "JAt1THWgxOdSmBjcYYyYbV99RgjNCba+0CMV0KBhfy6F6qeL7zVaMKtuKZzxvqo0yZYCFZ1ssJ8VfCreUOl4Cg=="
+  "failed_at": "2022-07-25T13:23:01.238555+00:00",
+  "error_code": 422,
+  "error_message": "{\"severity\":\"INFO\",\"message\":\"Fetching data view\",\"datetime\":\"2022-07-25T13:23:01.147400+00:00\",\"requestId\":\"100bc295-ac76-45eb-9fda-00edb122721e\",\"public\":true,\"node\":\"929787a4-d057-413a-977f-7c47c6b284c7\",\"table_id\":\"src/Integrations/typeform_e2e/answers\",\"channel\":\"local\"}",
+  "_signature": "CzUjxZNt8Zh/O8qmEEUnqs7aBj46o55tb+oVfPDzQDO2FZ/r/8X2lzrHJ9K5fINvl6P65OQBLoFElc+T7dqiBA=="
 }
