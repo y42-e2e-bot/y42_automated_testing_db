@@ -1,0 +1,4 @@
+{
+  "$schema": "https://s.dev.y42.dev/exports/csv/0.0.0/table",
+  "datasource_table": "src/Models/UI/ui_model_test_e2e/ui_model_test_e2e"
+}
