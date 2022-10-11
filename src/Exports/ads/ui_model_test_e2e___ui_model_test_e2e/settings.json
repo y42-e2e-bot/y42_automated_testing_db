@@ -1,0 +1,5 @@
+{
+  "$schema": "https://s.dev.y42.dev/exports/google_sheets/0.0.0/table",
+  "datasource_table_path": "src/Models/UI/ui_model_test_e2e/ui_model_test_e2e",
+  "sheet_id": "1GatRsQhCgGqm54PsPhRSB9_NHlZuqnGqjJjY9kZiXqo"
+}
